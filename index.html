@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ES TELER — Segar, Manis & Creamy Setiap Hari</title>
+  <meta name="description" content="Pesan ES TELER segar secara online. Pilihan Es Teler 1 Cup (Rp10.000) dan Es Teler 1 Teko (Rp25.000) dengan potongan buah segar, cendol, cincau, dan kuah creamy spesial." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="brand-logo" aria-label="Beranda ES TELER">
+        <img src="assets/images/logo.jpeg" alt="Logo ES TELER" class="brand-logo-img" />
+        <span class="brand-text">ES TELER</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi Utama">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#menu" class="nav-link">Menu Produk</a>
+        <a href="#tentang" class="nav-link">Tentang Kami</a>
+        <a href="#galeri" class="nav-link">Galeri</a>
+        <a href="#lokasi" class="nav-link">Lokasi</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#kontak" class="btn btn-sm btn-primary nav-contact-btn">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          <span>Hubungi Kami</span>
+        </a>
+
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= A. BERANDA (HERO SECTION) ================= -->
+    <section class="hero-section" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="pill-badge">
+            <span class="dot"></span>
+            Segar, Manis &amp; Creamy Setiap Hari
+          </div>
+          <h1 class="hero-title">
+            Kesegaran Asli <span class="text-highlight">ES TELER</span> dengan Isian Buah &amp; Topping Melimpah
+          </h1>
+          <p class="hero-description">
+            Nikmati perpaduan buah naga merah, semangka, melon, cendol pandan, cincau hitam, jelly, tape singkong, dan biji selasih dalam balutan kuah susu creamy khas <strong>ES TELER</strong>. Tersedia ukuran Cup personal maupun Teko porsi puas!
+          </p>
+
+          <div class="hero-price-pills">
+            <div class="price-pill">
+              <span class="pill-label">Es Teler 1 Cup</span>
+              <strong class="pill-price">Rp10.000</strong>
+            </div>
+            <div class="price-pill price-pill-secondary">
+              <span class="pill-label">Es Teler 1 Teko</span>
+              <strong class="pill-price">Rp25.000</strong>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary btn-lg">
+              <span>Lihat Menu</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#kontak" class="btn btn-outline btn-lg" id="heroOrderNowBtn">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Hubungi Kami</span>
+            </a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">✓</span>
+              <span>100% Bahan Baku Segar</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">✓</span>
+              <span>Isian Penuh &amp; Creamy</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">✓</span>
+              <span>Pesan Mudah via WhatsApp</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img
+              src="assets/images/WhatsApp%20Image%202026-11-11%20at%2019.10.06.jpeg"
+              alt="Produk Utama ES TELER Cup Segar dengan Topping Buah Melimpah"
+              class="hero-main-img"
+            />
+            <div class="floating-card floating-card-top">
+              <span class="floating-badge-tag">Favorit Pelanggan</span>
+              <strong>Es Teler 1 Cup — Rp10.000</strong>
+            </div>
+            <div class="floating-card floating-card-bottom">
+              <img
+                src="assets/images/WhatsApp%20Image%202026-11-11%20at%2019.10.08.jpeg"
+                alt="Es Teler 1 Teko Rp25.000"
+                class="floating-thumb"
+              />
+              <div>
+                <span class="floating-sub">Porsi Rame-Rame</span>
+                <strong>Es Teler 1 Teko — Rp25.000</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= B. MENU PRODUK ================= -->
+    <section class="menu-section section-padding" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Katalog Resmi ES TELER</span>
+          <h2 class="section-title">Menu Pilihan <span class="text-highlight">ES TELER</span></h2>
+          <p class="section-subtitle">
+            Pilih porsi <strong>ES TELER</strong> favorit Anda. Tersedia dalam kemasan 1 Cup praktis atau 1 Teko jumbo yang lebih hemat untuk dinikmati bersama.
+          </p>
+        </div>
+
+        <!-- Daftar Produk (Dirender dari JavaScript agar mudah dikelola & konsisten) -->
+        <div class="products-grid" id="productsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= E. TENTANG KAMI ================= -->
+    <section class="about-section section-padding" id="tentang">
+      <div class="container about-grid">
+        <div class="about-images">
+          <div class="about-img-main">
+            <img
+              src="assets/images/WhatsApp%20Image%202026-11-11%20at%2019.10.12.jpeg"
+              alt="Suasana Pelanggan Membeli di Booth ES TELER"
+              loading="lazy"
+            />
+            <div class="about-img-caption">
+              Suasana hangat pelanggan yang menikmati kesegaran <strong>ES TELER</strong> langsung di gerai kami.
+            </div>
+          </div>
+          <div class="about-img-secondary">
+            <img
+              src="assets/images/WhatsApp%20Image%202026-11-11%20at%2019.10.28.jpeg"
+              alt="Deretan Cup ES TELER Siap Saji"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">Tentang Kami</span>
+          <h2 class="section-title">Kenapa <span class="text-highlight">ES TELER</span> Selalu Bikin Ketagihan?</h2>
+          <p class="about-text">
+            <strong>ES TELER</strong> hadir untuk memberikan pengalaman menikmati minuman segar yang kaya rasa, higienis, dan mengenyangkan. Setiap porsi diracik langsung dari beragam potongan buah asli serta topping pilihan yang disiapkan segar setiap hari.
+          </p>
+          <p class="about-text">
+            Kami percaya bahwa kesegaran terbaik berasal dari bahan-bahan berkualitas dan porsi yang jujur. Baik untuk melepas dahaga di siang hari dengan <strong>Es Teler 1 Cup (Rp10.000)</strong> maupun berbagi keceriaan bersama keluarga lewat <strong>Es Teler 1 Teko (Rp25.000)</strong>, kepuasan Anda adalah prioritas kami.
+          </p>
+
+          <div class="about-features">
+            <div class="feature-card">
+              <div class="feature-icon-box">🍉</div>
+              <div>
+                <h4>10+ Isian &amp; Buah Asli</h4>
+                <p>Buah naga, semangka, melon, cendol pandan, cincau hitam, jelly, tape singkong, roti, kacang, &amp; selasih.</p>
+              </div>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon-box">🥛</div>
+              <div>
+                <h4>Kuah Creamy Spesial</h4>
+                <p>Perpaduan kuah susu pink yang lembut, wangi, dan manisnya pas tanpa membuat enek.</p>
+              </div>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon-box">💎</div>
+              <div>
+                <h4>Harga Terjangkau &amp; Konsisten</h4>
+                <p>Nikmati porsi penuh berkualitas hanya dengan Rp10.000 per Cup atau Rp25.000 per Teko.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= F. GALERI ================= -->
+    <section class="gallery-section section-padding" id="galeri">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Galeri Foto Asli</span>
+          <h2 class="section-title">Keaslian Produk &amp; Komposisi <span class="text-highlight">ES TELER</span></h2>
+          <p class="section-subtitle">
+            Seluruh foto di bawah ini adalah dokumentasi asli produk <strong>ES TELER</strong>, mulai dari sajian Cup &amp; Teko, kualitas bahan baku segar di wadah kami, hingga suasana gerai.
+          </p>
+        </div>
+
+        <div class="gallery-filters" role="tablist" aria-label="Filter Galeri Foto">
+          <button type="button" class="filter-btn active" data-filter="all">Semua Foto</button>
+          <button type="button" class="filter-btn" data-filter="produk">Produk Cup &amp; Teko</button>
+          <button type="button" class="filter-btn" data-filter="bahan">Isian &amp; Topping Segar</button>
+          <button type="button" class="filter-btn" data-filter="gerai">Suasana Gerai</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Dirender oleh JavaScript menggunakan foto asli dari folder FOTO -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= G. LOKASI ================= -->
+    <section class="location-section section-padding" id="lokasi">
+      <div class="container">
+        <div class="location-card">
+          <div class="location-info">
+            <span class="section-tag">Lokasi Usaha</span>
+            <h2 class="section-title">Kunjungi Gerai <span class="text-highlight">ES TELER</span></h2>
+            <p class="location-desc">
+              Ingin membeli langsung di tempat atau mengambil pesanan Anda? Silakan kunjungi lokasi gerai resmi <strong>ES TELER</strong> melalui tautan Google Maps di bawah ini untuk melihat titik lokasi dan petunjuk arah secara akurat.
+            </p>
+
+            <div class="location-highlights">
+              <div class="loc-item">
+                <div class="loc-icon">📍</div>
+                <div>
+                  <strong>Titik Lokasi Resmi Google Maps</strong>
+                  <p>Klik tombol di bawah untuk membuka peta interaktif dan navigasi langsung ke gerai ES TELER.</p>
+                </div>
+              </div>
+              <div class="loc-item">
+                <div class="loc-icon">🥤</div>
+                <div>
+                  <strong>Tersedia Pembelian Langsung &amp; Pesan Online</strong>
+                  <p>Es Teler 1 Cup (Rp10.000) &amp; Es Teler 1 Teko (Rp25.000) siap disajikan segar.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-cta-group">
+              <a
+                href="https://maps.app.goo.gl/bLaHZUj429WmUcu38"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-lg"
+                id="viewLocationBtn"
+              >
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Lihat Lokasi</span>
+              </a>
+
+              <a
+                href="https://maps.app.goo.gl/bLaHZUj429WmUcu38"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary btn-lg"
+                id="directionsBtn"
+              >
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                </svg>
+                <span>Petunjuk Arah</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="location-visual">
+            <div class="map-preview-frame">
+              <img
+                src="assets/images/WhatsApp%20Image%202026-11-11%20at%2019.10.12.jpeg"
+                alt="Gerai Resmi ES TELER"
+                class="location-booth-img"
+                loading="lazy"
+              />
+              <div class="map-overlay-card">
+                <div class="map-pin-pulse"></div>
+                <div class="map-overlay-text">
+                  <strong>Gerai Resmi ES TELER</strong>
+                  <span>Tautan Resmi: maps.app.goo.gl/bLaHZUj429WmUcu38</span>
+                </div>
+                <a
+                  href="https://maps.app.goo.gl/bLaHZUj429WmUcu38"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm btn-primary"
+                >
+                  Buka Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= H. KONTAK ================= -->
+    <section class="contact-section section-padding" id="kontak">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Hubungi Kami</span>
+          <h2 class="section-title">Pemesanan &amp; Informasi Kontak <span class="text-highlight">ES TELER</span></h2>
+          <p class="section-subtitle">
+            Punya pertanyaan seputar ketersediaan produk atau ingin memesan <strong>ES TELER</strong> untuk acara keluarga, kantor, dan kumpul bersama? Hubungi kami langsung melalui WhatsApp.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <h3>Pemesanan WhatsApp</h3>
+            <p>Layanan pemesanan cepat untuk Es Teler 1 Cup (Rp10.000) dan Es Teler 1 Teko (Rp25.000).</p>
+            <div class="contact-meta-box" id="contactWhatsappDisplay">
+              Nomor WhatsApp Resmi: <strong>0895-0602-6970</strong>
+            </div>
+            <button type="button" class="btn btn-whatsapp btn-block" id="directWhatsappContactBtn">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Chat via WhatsApp</span>
+            </button>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">🍧</div>
+            <h3>Daftar Harga Resmi</h3>
+            <p>Harga produk konsisten untuk pemesanan online maupun pembelian langsung di gerai:</p>
+            <ul class="contact-price-list">
+              <li>
+                <span>Es Teler 1 Cup</span>
+                <strong>Rp10.000</strong>
+              </li>
+              <li>
+                <span>Es Teler 1 Teko</span>
+                <strong>Rp25.000</strong>
+              </li>
+            </ul>
+            <a href="#menu" class="btn btn-outline btn-block">Pilih Produk di Menu</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">🗺️</div>
+            <h3>Lokasi Gerai</h3>
+            <p>Temukan lokasi usaha <strong>ES TELER</strong> secara mudah melalui Google Maps resmi kami.</p>
+            <div class="contact-meta-box">
+              https://maps.app.goo.gl/bLaHZUj429WmUcu38
+            </div>
+            <a
+              href="https://maps.app.goo.gl/bLaHZUj429WmUcu38"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary btn-block"
+            >
+              Buka Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= I. FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#beranda" class="brand-logo footer-logo">
+          <img src="assets/images/logo.jpeg" alt="Logo ES TELER" class="brand-logo-img" />
+          <span class="brand-text">ES TELER</span>
+        </a>
+        <p class="footer-desc">
+          Usaha kuliner dan minuman segar dengan sajian utama <strong>ES TELER</strong>. Diramu dari potongan buah segar pilihan, topping lengkap, dan kuah susu creamy yang menggugah selera.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigasi Website</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#menu">Menu Produk</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#lokasi">Lokasi</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-products">
+        <h4>Produk &amp; Harga</h4>
+        <ul>
+          <li>Es Teler 1 Cup — <strong>Rp10.000</strong></li>
+          <li>Es Teler 1 Teko — <strong>Rp25.000</strong></li>
+        </ul>
+      </div>
+
+      <div class="footer-location">
+        <h4>Informasi Lokasi</h4>
+        <p>Kunjungi gerai kami melalui tautan Google Maps resmi:</p>
+        <a
+          href="https://maps.app.goo.gl/bLaHZUj429WmUcu38"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-map-link"
+        >
+          📍 Buka Lokasi di Google Maps
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear">2026</span> <strong>ES TELER</strong>. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL LIGHTBOX GALERI ================= -->
+  <div class="modal-backdrop" id="lightboxModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Pratinjau Foto Galeri">
+    <div class="lightbox-card">
+      <button type="button" class="modal-close-btn lightbox-close-btn" id="closeLightboxBtn" aria-label="Tutup Foto">&times;</button>
+      <img src="" alt="" id="lightboxImage" class="lightbox-img" />
+      <div class="lightbox-caption">
+        <h4 id="lightboxTitle"></h4>
+        <p id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= TOAST NOTIFICATION ================= -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
